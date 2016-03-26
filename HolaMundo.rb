@@ -42,6 +42,35 @@ class HolaMundo
 		cadenaUno = "hola"
 		cadenaDos = "hola!"
 		puts cadenaUno <=> cadenaDos #Comparar dos cadenas 
+		nombre = "yeison"
+		nombre = nombre.capitalize#poner la primer letra en mayuscula
+		puts nombre
+		cadenaSeparador = "hola"
+		cadenaSeparador.each_char{|c| print c 
+									print "\n"}
+		#
+		#Operadores logicos
+		# ==
+		# <
+		# >
+		# <=
+		# >=
+		# OR ||
+		# AND
+		# not !
+		hora = 14							
+		if hora < 12
+			puts "Buenos Dias"								
+		else
+			puts "Buenas tardes"
+		end
+		#
+		#unless
+		#
+		edad = 12
+		unless edad < 18
+			puts "edad eres menos de 18" 									
+		end 							
 	end
 end
 #Crear el objeto de la clase HolaMundo		
