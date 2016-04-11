@@ -36,8 +36,8 @@ class HolaMundo
 		print "suma esto = #{resultado}"
 		cadena = "hola"
 		cadena << "mundo"
-		cadena.concat(33) #Concatenar un Strig y dar un valos en codigo askin
-		puts cadena * 4 #Multiplicar el strig
+		cadena.concat(33) #Concatenar un String y dar un valor en codigo asccin
+		puts cadena * 4 #Multiplicar el string
 
 		cadenaUno = "hola"
 		cadenaDos = "hola!"
