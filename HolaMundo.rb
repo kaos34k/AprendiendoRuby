@@ -64,13 +64,13 @@ class HolaMundo
 		else
 			puts "Buenas tardes"
 		end
-		#
-		#unless
-		#
+		#unless		#
 		edad = 12
 		unless edad < 18
 			puts "edad eres menos de 18" 									
-		end 							
+		end 
+		#procedimientos 
+										
 	end
 end
 #Crear el objeto de la clase HolaMundo		
